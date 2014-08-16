@@ -7,6 +7,7 @@
 int main(void)
 {
     printf("added by Ubuntu\n");
+    printf("added by mac\n");
     int sock_listen, sock_client, iSize, iLength;
     struct sockaddr_in server_addr, client_addr;
     char recvBuf[200] = {0};
